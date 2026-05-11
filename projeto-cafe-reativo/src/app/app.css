@@ -1,0 +1,92 @@
+/* HEADER */
+header {
+    background-color: lightblue;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+/* container dentro do header */
+header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* botão do header */
+header button {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    font-size: 16px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+header button:hover {
+    background-color: #0399609a;
+    transform: scale(1.05);
+}
+
+
+/* CONTAINER GLOBAL */
+.container {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+
+/* CARDS */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.card {
+    border: 1px solid #ffcc88;
+    border-radius: 10px;
+    width: calc(50% - 10px);
+    display: flex;
+}
+
+/* imagem */
+.card-image {
+    width: 200px;
+}
+
+/* conteúdo */
+.card-content {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    flex: 1;
+}
+
+/* área dos botões */
+.card-actions {
+    margin-top: auto;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+
+/* BOTÕES GERAIS */
+button {
+    background-color: #2910a5;
+    border: none;
+    color: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover {
+    background-color: #5b65d4;
+    transform: scale(1.05);
+}

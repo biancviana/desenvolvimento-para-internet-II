@@ -1,0 +1,38 @@
+<header>
+  <div class="container">
+    <button (click)="irPara('products')">NgCoffe</button>
+    <button (click)="irPara('cart')">Carrinho ({{ cart.length }})</button>
+  </div>
+</header>
+
+<main>
+  <div class="container">
+    <!-- <p>{{ page() }}</p> -->
+
+    @if (page() === 'products') {
+      <h2>LISTA DE PRODUTOS</h2>
+      <div class="product-list">
+        @for (product of products; track product.id) {
+          <div class="card">
+            <div class="card-content">
+              <span class="title">{{ product.name }}</span>
+              <span class="description">{{ product.description }}</span>
+              <button (click)="adicionarCarrinho(product)">Adicionar ao carrinho</button>
+            </div>
+          </div>
+        }
+      </div>
+    } @else {
+      <h2>ITENS DO CARRINHO</h2>
+      @for (item of cart; track $index) {
+        <div class="card-list">
+          <div class="card">
+            <span class="title">{{ item.name }}</span>
+            <span class="description">{{ item.description }}</span>
+            <button (click)="removerCarrinho($index)">Remover do carrinho</button>
+          </div>
+        </div>
+      }
+    }
+  </div>
+</main>
