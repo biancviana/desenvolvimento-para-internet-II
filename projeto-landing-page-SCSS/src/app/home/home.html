@@ -1,0 +1,22 @@
+<div class="container">
+  <header>
+    <h1>IMOBILIÁRIA ESPECIALIZADA EM CONDOMÍNIOS</h1>
+    <p>Encontro o imóvel dos seus sonhos...</p>
+  </header>
+
+  <h2>Imóveis em Destaque</h2>
+  <div class="cartao">
+    @for (item of casa; track item.id) {
+      <img [src]="item.foto" alt="{{ item.titulo }}" />
+      <br />
+      <h3>{{ item.titulo }}</h3>
+      <p>{{ item.descricao }}</p>
+      <button (click)="maisDetalhes(item)">Ver Detalhes</button>
+      <br /><br /><br />
+    }
+  </div>
+
+  <footer>
+    <p>2026 Imobb Indaiatuba - Todos os direitos reservados</p>
+  </footer>
+</div>
