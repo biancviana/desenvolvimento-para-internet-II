@@ -1,0 +1,53 @@
+$cor-principal: #8fbfb9;
+$cor-secundaria: #649ea7;
+$cor-fundo-cartao: #bad1c9;
+$cor-botao: #f5be58;
+$cor-hover: #0056b3;
+$branco: #fff;
+
+.container {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+header {
+  background-color: $cor-principal;
+  padding: 20px;
+  border-bottom: 10px solid $cor-secundaria;
+  color: $branco;
+}
+
+h2 {
+  color: $cor-secundaria;
+}
+
+.cartao {
+  border: 2px solid $cor-principal;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  background-color: $cor-fundo-cartao;
+
+  img {
+    max-width: 30%;
+    border-radius: 10px;
+  }
+}
+
+button {
+  background-color: $cor-botao;
+  color: $branco;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $cor-hover;
+  }
+}
+
+button {
+  margin-bottom: 10px;
+}
