@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "foto": "images/casa1.webp",
+    "titulo": "Casa Moderna com Piscina",
+    "descricao": "Casa ampla com design moderno e área de lazer.",
+    "detalhes": "4 quartos, 3 banheiros, 2 vagas de garagem"
+  },
+  {
+    "id": 2,
+    "foto": "images/casa2.webp",
+    "titulo": "Apartamento no Centro",
+    "descricao": "Localizado no coração da cidade.",
+    "detalhes": "2 quartos, 1 suíte, portaria 24h"
+  },
+  {
+    "id": 3,
+    "foto": "images/casa3.webp",
+    "titulo": "Chácara com Vista para o Lago",
+    "descricao": "Espaço ideal para eventos e descanso.",
+    "detalhes": "3 suítes, piscina, área gourmet"
+  },
+  {
+    "id": 4,
+    "foto": "images/casa4.webp",
+    "titulo": "Cobertura de Luxo",
+    "descricao": "Cobertura com vista panorâmica da cidade.",
+    "detalhes": "4 quartos, jacuzzi, terraço amplo"
+  },
+  {
+    "id": 5,
+    "foto": "images/casa5.webp",
+    "titulo": "Casa de Campo Aconchegante",
+    "descricao": "Ideal para quem busca tranquilidade.",
+    "detalhes": "2 quartos, lareira, pomar"
+  },
+  {
+    "id": 6,
+    "foto": "images/casa6.webp",
+    "titulo": "Apartamento com Varanda Gourmet",
+    "descricao": "Condomínio completo com lazer.",
+    "detalhes": "3 quartos, churrasqueira na varanda"
+  },
+  {
+    "id": 7,
+    "foto": "images/casa7.webp",
+    "titulo": "Casa Térrea Espaçosa",
+    "descricao": "Ambientes integrados e bem iluminados.",
+    "detalhes": "3 quartos, escritório, quintal"
+  },
+  {
+    "id": 8,
+    "foto": "images/casa8.webp",
+    "titulo": "Loft Minimalista",
+    "descricao": "Design moderno e compacto.",
+    "detalhes": "1 quarto, cozinha planejada"
+  },
+  {
+    "id": 9,
+    "foto": "images/casa9.webp",
+    "titulo": "Casa com Quintal Amplo",
+    "descricao": "Espaço ideal para família e pets.",
+    "detalhes": "3 quartos, 2 banheiros, área externa grande"
+  },
+  {
+    "id": 10,
+    "foto": "images/casa10.webp",
+    "titulo": "Cobertura Duplex",
+    "descricao": "Luxo e sofisticação em dois andares.",
+    "detalhes": "3 suítes, piscina privativa, vista deslumbrante"
+  },
+  {
+    "id": 11,
+    "foto": "images/casa11.webp",
+    "titulo": "Apartamento Compacto",
+    "descricao": "Prático e funcional para solteiros ou casais.",
+    "detalhes": "1 quarto, 1 banheiro, perto do metrô"
+  },
+  {
+    "id": 12,
+    "foto": "images/casa12.webp",
+    "titulo": "Casa de Alto Padrão",
+    "descricao": "Arquitetura exclusiva e acabamento premium.",
+    "detalhes": "5 suítes, piscina aquecida, área gourmet"
+  },
+  {
+    "id": 13,
+    "foto": "images/casa13.webp",
+    "titulo": "Sobrado em Condomínio Fechado",
+    "descricao": "Condomínio seguro e com lazer completo.",
+    "detalhes": "4 quartos, 2 vagas, churrasqueira"
+  },
+  {
+    "id": 14,
+    "foto": "images/casa14.webp",
+    "titulo": "Apartamento com Vista para o Mar",
+    "descricao": "Ideal para quem busca qualidade de vida.",
+    "detalhes": "3 quartos, varanda ampla, portaria 24h"
+  },
+  {
+    "id": 15,
+    "foto": "images/casa15.webp",
+    "titulo": "Casa Rústica de Madeira",
+    "descricao": "Charmosa e acolhedora em estilo rústico.",
+    "detalhes": "2 quartos, varanda com rede, lareira"
+  },
+  {
+    "id": 16,
+    "foto": "images/casa16.webp",
+    "titulo": "Flat no Centro Comercial",
+    "descricao": "Ótima opção para investidores.",
+    "detalhes": "1 suíte, cozinha americana, serviços inclusos"
+  },
+  {
+    "id": 17,
+    "foto": "images/casa17.webp",
+    "titulo": "Casa com Área Gourmet",
+    "descricao": "Perfeita para reuniões e festas.",
+    "detalhes": "3 quartos, piscina, churrasqueira"
+  },
+  {
+    "id": 18,
+    "foto": "images/casa18.webp",
+    "titulo": "Kitnet Econômica",
+    "descricao": "Compacta e acessível, ideal para estudantes.",
+    "detalhes": "1 quarto, mobiliada, próxima à universidade"
+  },
+  {
+    "id": 19,
+    "foto": "images/casa19.webp",
+    "titulo": "Chácara Completa",
+    "descricao": "Natureza e lazer em um só lugar.",
+    "detalhes": "4 suítes, lago privativo, salão de festas"
+  },
+  {
+    "id": 20,
+    "foto": "images/casa20.webp",
+    "titulo": "Apartamento Cobertura Premium",
+    "descricao": "Espaço exclusivo com alta sofisticação.",
+    "detalhes": "5 suítes, jacuzzi, vista panorâmica"
+  }
+]
